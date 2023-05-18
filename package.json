@@ -1,6 +1,6 @@
 {
   "name": "cmav-my-storybook-components",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
@@ -43,7 +43,8 @@
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_c928e298e7ac365",
     "clean": "rimraf dist/",
-    "copy-files": "copyfiles -u 1 src/**/*.css dist/"
+    "copy-files": "copyfiles -u 1 src/**/*.css dist/",
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {
     "extends": [

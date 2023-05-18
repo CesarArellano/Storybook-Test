@@ -4,7 +4,7 @@
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
-  "main": "",
+  "main": "dist/index.js",
   "homepage": "https://cesararellano.github.io/React-Personal-Portfolio/",
   "repository": {
     "url": "https://github.com/CesarArellano/Storybook-Test.git",

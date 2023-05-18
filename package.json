@@ -1,6 +1,6 @@
 {
   "name": "cmav-my-storybook-components",
-  "version": "0.0.0-development",
+  "version": "0.1.1",
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
@@ -38,7 +38,7 @@
   },
   "scripts": {
     "start": "storybook dev -p 6006",
-    "build": "npm run clean && tsc.cmd && npm run copy-files",
+    "build": "npm run clean && tsc && npm run copy-files",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "chromatic": "npx chromatic --project-token=chpt_c928e298e7ac365",
